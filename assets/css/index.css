@@ -13,3 +13,52 @@ div{
 body{
     background-color: #FAFAFA;
 }
+.navbar{
+  display: flex;
+  box-shadow: gainsboro;
+  justify-content: space-around;
+
+ 
+}
+.navbar h3{
+    margin-top: 8px;
+    font-style: italic;
+}
+
+.navbar ul {
+  display: flex;
+  justify-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FAFAFA;
+  }
+  
+.navbar li a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .navbar .active{
+    color: #0F298B;
+  }
+  
+  .navbar button {
+    float: right;
+    padding: 3px;
+    margin-top: 8px;
+    background:  #2549D3;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    justify-items: center;
+  }
+ 
+  /* Change the link color on hover */
+.navbar li a:hover {
+   color: #0F298B;
+  }
+
