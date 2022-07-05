@@ -1,25 +1,19 @@
 /* Style the top navigation bar */
 *{
     padding: 0;
-    margin: 0px, 50px, 0px, 50px;
+    margin: 0px;
     /* font-family: Space Grotesk, Oleo Script; */
     font-style: Space Grotesk, Oleo Script;
-    border-style: none;
-    border-width: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-div{
-  margin: 10px 10px;
-}
+
 img{
   border: aliceblue;
   border-width: 5px;
   margin: 10px 10px;
  
 }
-body{
-    background-color: #FAFAFA;
-}
+
 h1{
       color: #0F298B;
 }
@@ -32,12 +26,15 @@ h1{
   display: flex;
   box-shadow: gainsboro;
   justify-content: space-around;
-
+  font-weight: bold;
+  border-bottom: 1px solid rgb(139, 136, 136);
+  margin-bottom: 80px;
  
 }
 .navbar h3{
     margin-top: 8px;
     font-style: italic;
+   
 }
 
 .navbar ul {
@@ -47,7 +44,6 @@ h1{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #FAFAFA;
   }
   
 .navbar li a {
@@ -62,14 +58,16 @@ h1{
   
   .navbar button {
     float: right;
-    padding: 3px;
-    margin-top: 8px;
+    padding: 3px 3px;
+    margin-top: 6px;
+    margin-bottom: 6px;
     background:  #2549D3;
-    font-size: 16px;
+    font-size: 12px;
     color: white;
     border: none;
     cursor: pointer;
     justify-items: center;
+    border-radius: 12px;
   }
  
   /* Change the link color on hover */
@@ -84,11 +82,20 @@ h1{
   .container button{
     background-color: #2549D3;
     color: white;
-    padding: 3px;
+    padding: 3px 3px;
+    float: left;
+    padding: 8px 8px;
+    font-size: 12px;
+    color: white;
+    justify-items: center;
+    border-radius: 12px;
+    margin-top: 16px;
   }
+  
   .container img {
    flex-basis: auto;
   }
+
   .dp_image {
     flex-basis: 40%
   }
@@ -99,44 +106,65 @@ h1{
   /* position images side by side */
   .row {
     display: flex;
-    box-shadow: #f1f1f1a4;
+    justify-content: space-around;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 120px;
   }
-  
+  .column{
+   background-color: rgb(240, 236, 236);
+  }
   
   /* Dropdown Content */
   .dropdown{
-    display: list-item;
-    position: absolute;
-    background-color: #f1f1f1;
-    color: black;
-    padding: 6px 6px;
-    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
     display: flex;
+    background-color:#f1f1f1;
+    color: black;
+    padding: 3px 3px;
+    font-size: 12px;
+    margin-left: 60px;
+    margin-right: 60px;
+
   }
 
   .dropdown button{
     background-color: #2549D3;
+    border-radius: 12px;
+    padding: 3px 3px;
+    margin-top: 8px;
+    font-size: 16px;
     color: white;
+    cursor: pointer;
+    justify-items: center;
+    border-radius: 12px;
   }
 .product h1{
   float:right;
 
 }
-.product prod{
+.product{
   text-align: center;
 }
-  .container2 {
+.center{
+  text-align: center;
+}
+.container2 {
     display: flex;
     align-items: center;
     justify-content: center
-  }
-  img {
+}
+  
+img {
     max-width: 100%
-  }
-  .image2 {
+}
+  
+.image2 {
     flex-basis: 40%
-  }
-  .text2 {
+ }
+
+.text2 {
     font-size: 20px;
     padding: 20px;
   }
@@ -146,18 +174,33 @@ h1{
   .customer{
     display: flex;
     border: none;
-    background-color: white;
-    
+    justify-content: space-around;
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+
+  .customer p{
+    background-color: #f1f1f1;
   }
   .Property{
     text-align: center;
   }
   /* Clear floats after the columns */
   .Esteemed-Customers:after {
-    content: "";
     display: table;
-
     clear: both;
+  }
+  .Esteemed-Customers button{
+    background-color: #2549D3;
+    border-radius: 12px;
+    padding: 3px 3px;
+    margin-top: 8px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    justify-items: center;
+    border-radius: 12px;
+    float: right;
   }
 
   .text3{
@@ -167,12 +210,14 @@ h1{
   .footer {
     display: flex;
     background: #2549D3; 
+    justify-content: space-around;
+    color: white;
+    font-weight: bold;
+    line-height: 1.8;
+  }
+  .footer h1{
+    color: white;
+    font-weight: bold;
   }
 
   
-  /* Clear floats after the columns */
-  .footer:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
