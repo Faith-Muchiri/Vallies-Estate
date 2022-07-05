@@ -74,3 +74,7 @@ body{
   .container img {
    flex-basis: auto;
   }
+  .row {
+    display: flex;
+    box-shadow: #f1f1f1a4;
+  }
