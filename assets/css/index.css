@@ -78,3 +78,17 @@ body{
     display: flex;
     box-shadow: #f1f1f1a4;
   }
+
+  .dropdown{
+    display: list-item;
+    position: absolute;
+    background-color: #f1f1f1;
+    color: black;
+    padding: 6px 6px;
+    text-decoration: none;
+    display: flex;
+  }
+
+  .dropdown button{
+    background-color: #2549D3;
+    color: white;
