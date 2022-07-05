@@ -62,3 +62,15 @@ body{
    color: #0F298B;
   }
 
+  .container {
+    display: flex;
+    justify-content:space-around;
+  }
+  .container button{
+    background-color: #2549D3;
+    color: white;
+    padding: 3px;
+  }
+  .container img {
+   flex-basis: auto;
+  }
