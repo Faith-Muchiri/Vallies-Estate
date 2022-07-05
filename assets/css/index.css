@@ -92,3 +92,16 @@ body{
   .dropdown button{
     background-color: #2549D3;
     color: white;
+
+  .footer {
+    display: flex;
+    background: #2549D3; 
+  }
+
+  
+  /* Clear floats after the columns */
+  .footer:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
