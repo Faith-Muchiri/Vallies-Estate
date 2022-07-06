@@ -114,9 +114,22 @@ justify-items: center;
   margin-bottom: 120px;
 }
 .column{
+ flex: 33.33%;
+ padding: 5px;
+ margin-right: 5px;
  background-color: rgb(240, 236, 236);
 }
-
+.Right{
+  float:right;
+  margin-right: 10px;
+}
+.Right p{
+  color: #2549D3;
+}
+.left{
+  float: left;
+  margin-left: 10px;
+}
 /* Dropdown Content */
 .dropdown{
   justify-content: space-around;
@@ -124,7 +137,7 @@ justify-items: center;
   display: flex;
   background-color:#f1f1f1;
   color: black;
-  padding: 3px 3px;
+  padding: 6px 6px;
   font-size: 12px;
   margin-left: 60px;
   margin-right: 60px;
@@ -143,20 +156,23 @@ justify-items: center;
   justify-items: center;
   border-radius: 12px;
 }
-.product h1{
-float:right;
-margin: left 40px;
+.prod{
+margin-left: 40px;
 }
-.product{
-text-align: center;
-}
+
 .center{
-text-align: center;
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 60px;
 }
 .container2 {
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.text2 ul{
+  column-count: 2;
 }
 
 img {
@@ -164,28 +180,30 @@ img {
 }
 
 .image2 {
-  flex-basis: 40%
+  margin-right: 10px;
+  flex-basis: 50%
 }
 
 .text2 {
-  font-size: 20px;
   padding: 20px;
+  flex-basis: 50%;
 }
 .Property{
   text-align: center;
 }
 .customer{
   display: flex;
-  border: none;
   justify-content: space-around;
-  margin-left: 120px;
-  margin-right: 120px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 60px;
 }
 
 .customer p{
-  background-color: #f1f1f1; 
-  
-  
+  flex: 33.33%;
+  padding: 5px;
+  margin-right: 5px;
+  background-color: rgb(240, 236, 236);
 }
 .Property{
   text-align: center;
@@ -195,7 +213,6 @@ img {
   background-color: #2549D3;
   border-radius: 12px;
   padding: 3px 3px;
-  margin-top: 8px;
   font-size: 16px;
   color: white;
   cursor: pointer;
@@ -206,15 +223,22 @@ img {
 
 .text3{
   text-align: center;
-  margin: 20px 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .footer {
+  margin-top: 60px;
   display: flex;
   background: #2549D3; 
   justify-content: space-around;
   color: white;
   font-weight: bold;
   line-height: 1.8;
+}
+.feedback{
+  flex:25%;
+  padding: 5px;
+  margin-right: 5px;
 }
 .footer h1{
   color: white;
